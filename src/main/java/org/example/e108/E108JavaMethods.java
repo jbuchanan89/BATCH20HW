@@ -1,11 +1,19 @@
 package org.example.e108;
 
 public class E108JavaMethods {
-    public static void main(String[] args) {
+
         // Call method m1
-
+        static void m1(){
+            System.out.println("m1 method implementation");
+        }
         // Call method m2
+        static void m2(){
+            System.out.println("m2 method implementation");
+        }
 
+    public static void main(String[] args) {
+            m1();
+            m2();
     }
 
     // Create method m1 with print statement
