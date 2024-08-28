@@ -11,9 +11,21 @@ public class E105StringManipulations {
         String enter = scan.nextLine();
 
         for (int i = 0; i < enter.length(); i++) {
-            System.out.print(enter.charAt(i));
+
+            if (enter.charAt(i) == 'a') {
+                System.out.print(enter.charAt(i));
+            } else if (enter.charAt(i) == 'e') {
+                System.out.print(enter.charAt(i));
+            } else if (enter.charAt(i) == 'i'){
+                System.out.print(enter.charAt(i));
+            } else if(enter.charAt(i) == 'o'){
+                System.out.print(enter.charAt(i));
+            } else if (enter.charAt(i) =='u') {
+                System.out.print(enter.charAt(i));
             }
         }
 
     }
+}
+
 
