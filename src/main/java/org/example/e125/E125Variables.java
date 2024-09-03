@@ -6,12 +6,16 @@ public class E125Variables {
 
     public static void main(String[] args) {
         // Access the static variable in the main method and assign a value to it
+        E125Variables.number = 200;
+        E125Variables staticVariable = new E125Variables();
+        staticVariable.number = 200;
 
         // Create an object of the class
         // Access the static variable in a non-static way using the object and assign a value of 200
 
         // Print the static variable using the class name
-
+        System.out.println(E125Variables.number);
         // Print the static variable using the object instance
+        System.out.println(staticVariable.number);
     }
 }
